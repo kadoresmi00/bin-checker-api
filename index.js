@@ -26,7 +26,7 @@ app.use("/" + version + "/network", globalRateLimit, require("./src/router/netwo
 
 
 
-let listener = app.listen(80, () => {
+let listener = app.listen(3000, () => {
         console.log(`[Kado] => Api is running on port ${listener.address().port}\n[Version] => ${version}`);
 });
 
