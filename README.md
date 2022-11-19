@@ -1,1 +1,1 @@
-# bin-checker-api
+Bin Checker
