@@ -9,3 +9,18 @@ npm install
 ```js
 node index.js , npm start
 ```
+<h1>Api Usage</h1>
+
+```js
+http://localhost:3000/{version}/all
+All Data (GET) 200
+```
+```js
+http://localhost:3000/{version}/bin/:id
+Bin's Data (GET) 200
+```
+```js
+http://localhost:3000/{version}/network/:id
+Indicates whether it is Mastercard or visa
+```
+
